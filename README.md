@@ -16,3 +16,35 @@
 6. &nbsp;&nbsp;It'll then retrive the provided password and write it to a file that we will specify
 
 <img src="https://imgur.com/baswIN1.png" height="70%" width="75%" alt="Password Sniffer Steps"/>
+
+## Walkthrough
+
+First we need to find the api responsible for passwords for this we'll use `API Monitor`
+
+<img src="https://imgur.com/pJuvmMa.png" height="70%" width="75%" alt="Password Sniffer Steps"/>
+
+We'll be hooking the `WideCharToMultiByte` api since its the one containing the password as a parameter
+
+Before writing our trojan we'll need to undergo the above process for testing on our home lab 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

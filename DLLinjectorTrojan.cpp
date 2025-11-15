@@ -1,4 +1,12 @@
+/*
 
+ Benjamin Moss Custom code template
+ Service binary - payload encryption with AES
+ 
+ Author: Benjamin Moss Kipsoi 
+ Email: mossbenjamin254@gmail.com
+
+*/
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -12404,3 +12412,4 @@ int main(int argc, char *argv[]) {
 
 	
 }
+
